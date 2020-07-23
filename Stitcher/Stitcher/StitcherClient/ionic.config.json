@@ -1,0 +1,7 @@
+{
+  "name": "StitcherClient",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
