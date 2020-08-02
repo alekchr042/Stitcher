@@ -25,5 +25,7 @@ namespace Stitcher
         }
 
         public IMongoCollection<Floss> Flosses => _db.GetCollection<Floss>("Floss");
+
+        public IMongoCollection<User> Users => _db.GetCollection<User>("User");
     }
 }
