@@ -27,7 +27,7 @@ namespace Stitcher.Controllers
         }
 
         [HttpGet]
-        [Route("GetAllFlosses")]
+        [Route("GetAll")]
         public IEnumerable<Floss> GetAllFlosses()
         {
             var allFlosses = flossService.GetAllFlosses();
