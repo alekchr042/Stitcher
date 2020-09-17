@@ -9,12 +9,20 @@ namespace Stitcher.DataAccess.Model
     public class Floss
     {
         [BsonId]
-        public ObjectId Id { get; set; }
+        public ObjectId _id { get; set; }
 
-        public string ColorNumber { get; set; }
+        public int Id { get; set; }
 
-        public string ColorName { get; set; }
+        public string Number { get; set; }
 
-        public string Brand { get; set; }
+        public string Name { get; set; }
+
+        public string RGB { get; set; }
+
+        public int R { get; set; }
+
+        public int G { get; set; }
+
+        public int B { get; set; }
     }
 }
